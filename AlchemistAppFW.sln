@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "AlchemistAppFW", "AlchemistAppFW\AlchemistAppFW.jsproj", "{A1808ADF-7273-4C5E-88F7-4CF390789196}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodejsWebApp1", "NodejsWebApp1\NodejsWebApp1.njsproj", "{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Release|Android = Release|Android
+		Release|Any CPU = Release|Any CPU
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Android.ActiveCfg = Debug|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Android.Build.0 = Debug|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Android.Deploy.0 = Debug|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Any CPU.ActiveCfg = Debug|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|iOS.ActiveCfg = Debug|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|iOS.Build.0 = Debug|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|iOS.Deploy.0 = Debug|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Android.ActiveCfg = Release|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Android.Build.0 = Release|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Android.Deploy.0 = Release|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Any CPU.ActiveCfg = Release|Android
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|iOS.ActiveCfg = Release|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|iOS.Build.0 = Release|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|iOS.Deploy.0 = Release|iOS
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{A1808ADF-7273-4C5E-88F7-4CF390789196}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Android.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Android.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|iOS.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|iOS.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-ARM.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-ARM.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-x64.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-x64.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-x86.ActiveCfg = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Debug|Windows-x86.Build.0 = Debug|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Android.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Android.Build.0 = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|iOS.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|iOS.Build.0 = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-ARM.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-ARM.Build.0 = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-x64.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-x64.Build.0 = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-x86.ActiveCfg = Release|Any CPU
+		{8A89DF8C-A6BD-4D78-91E6-B614BB0A4161}.Release|Windows-x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {904F7EA9-FB6E-4F88-B2EA-ED8C0048F0FC}
+	EndGlobalSection
+EndGlobal

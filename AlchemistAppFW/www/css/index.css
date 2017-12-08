@@ -1,0 +1,58 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.navbar {
+    padding: 2px;
+    -webkit-box-shadow: 0px 1px 1px #808080;
+    -moz-box-shadow: 0px 1px 1px #808080;
+    box-shadow: 0px 1px 8px #808080;
+}
+
+.navbar-item img {
+    max-height: 2.75rem;
+}
+
+a.navbar-item:hover, a.navbar-item.is-active, a.navbar-link:hover, a.navbar-link.is-active {
+    background-color: #FFF
+}
+
+.wrapper {
+    padding: 71px 10px 10px 10px;
+}
+
+.block-scroll{
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.button, .navbar-burger{
+    border-style: none
+}
+
+.button, .navbar-burger:hover {
+    border-style: none;
+    background-color:#FFF
+}
+
+    .button:focus {
+        border-color: #FFF !important;
+        border-style: none !important;
+        outline: none;
+    }
+    .button:focus, .button.is-focused {
+        border-color: #FFF !important;
+        border-style: none !important;
+        outline: none;
+    }
+
+button:focus {
+    border-style: none !important;
+    border-color: #FFF !important;
+    outline: none;
+}
+.button:focus {
+   outline: none;
+}
