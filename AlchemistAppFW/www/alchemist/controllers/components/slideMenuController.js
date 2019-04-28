@@ -5,18 +5,21 @@ var slideMenuCtrl = {
 
     startMenu: function () {
         //TODO - Separar JSON????
-        slideMenuItems.push({
-            title: 'Compartilhar',
-            id: 'share'
-        });
-        slideMenuItems.push({
-            title: 'Avaliar',
-            id: 'evaluate'
-        });
-        //slideMenuItems.push({
-        //    title: 'Entry 2',
-        //    id: 'foo'
-        //});
+        slideMenuItems = [
+            {
+                title: 'Compartilhar',
+                id: 'share'
+
+            },
+            {
+                title: 'Avaliar',
+                id: 'evaluate'
+            },
+            {
+                title: 'Notificar',
+                id: 'notify'
+            }
+        ];
 
         menuObj = {
             title: 'Alchemist App',
@@ -51,6 +54,8 @@ var slideMenuCtrl = {
             case "evaluate":
                 slideMenuCtrl.clickEvaluate();
                 break;
+            case "notify":
+                slideMenuCtrl.clickNotify();
         }
     },
 
@@ -74,5 +79,16 @@ var slideMenuCtrl = {
 
     clickEvaluate: function () {
         window.open("https://play.google.com/store/apps/details?id=br.com.fourhoofs.fourmilk");
+    },
+
+    clickNotify: function () {
+     
+        //Listener para o evento notificacao que definimos no server.js
+        socket.on('notificacao', function (data) {
+            //localNotificationCtrl.simpleNotify(data.message);
+            navigator.notification.alert(data.message, null, "Notificação!", ["Ok"]);
+
+            //Trabalhar com data recebido
+        });
     },
 };
